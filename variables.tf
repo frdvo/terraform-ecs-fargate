@@ -12,7 +12,7 @@ variable "ecs_task_execution_role_name" {
 
 variable "az_count" {
   description = "Number of AZs to cover in a given region"
-  default     = "3"
+  default     = "2"
 }
 
 variable "app_image" {
@@ -27,7 +27,7 @@ variable "app_port" {
 
 variable "app_count" {
   description = "Number of docker containers to run"
-  default     = 3
+  default     = 1
 }
 
 variable "health_check_path" {
